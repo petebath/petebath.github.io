@@ -1,5 +1,4 @@
 body {
-  margin: 40px;
 }
 
 .sidebar {
@@ -17,22 +16,27 @@ body {
 
     .wrapper {
         display: grid;
-    grid-gap: 10px;
-        grid-template-columns: 120px  120px  120px;
+        grid-template-columns: 1fr  1fr  1fr 1fr;
         grid-template-areas:
-               "header header  header"
-                             "sidebar content content";
+               "header header  header header"
+                             "content content image image"
+                             "sidebar sidebar sidebar sidebar";
         background-color: #fff;
         color: #444;
     }
 .box {
   background-color: #444;
   color: #fff;
-  border-radius: 5px;
-  padding: 20px;
   font-size: 150%;
 }
 
 .header {
   background-color: #999;
+}
+
+.content{
+    background-color: rgb(255, 0, 76);
+}
+.image{
+    background-image: url('skate.jpeg');
 }
