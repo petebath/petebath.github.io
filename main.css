@@ -19,7 +19,7 @@ body {
         grid-template-columns: 1fr  1fr  1fr 1fr;
         grid-template-areas:
                "header header  header header"
-                             "content content image image"
+                             "content content text text"
                              "sidebar sidebar sidebar sidebar";
         background-color: #fff;
         color: #444;
@@ -37,6 +37,6 @@ body {
 .content{
     background-color: rgb(255, 0, 76);
 }
-.image{
+.text{
     background-image: url('skate.jpeg');
 }
