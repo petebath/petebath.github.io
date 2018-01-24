@@ -1,7 +1,8 @@
 body {
+  margin: 40px;
 }
 
-.sidebar {
+    .sidebar {
         grid-area: sidebar;
     }
 
@@ -16,27 +17,23 @@ body {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr  1fr  1fr 1fr;
+    grid-gap: 10px;
+        grid-template-columns: 1fr  1fr  1fr;
         grid-template-areas:
-               "header header  header header"
-                             "content content text text"
-                             "sidebar sidebar sidebar sidebar";
+               "header header  header"
+                             "content content content"
+                             "sidebar sidebar sidebar";
         background-color: #fff;
         color: #444;
     }
 .box {
   background-color: #444;
   color: #fff;
+  border-radius: 5px;
+  padding: 20px;
   font-size: 150%;
 }
 
 .header {
   background-color: #999;
-}
-
-.content{
-    background-color: rgb(255, 0, 76);
-}
-.text{
-    background-image: url('skate.jpeg');
 }
