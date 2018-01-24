@@ -3,8 +3,9 @@ body {
   font-family: Arial;
 }
 
-    .sidebar {
-        grid-area: sidebar;
+    .footer {
+        grid-area: footer;
+        text-align: center;
     }
 
     .content {
@@ -18,12 +19,12 @@ body {
 
     .wrapper {
         display: grid;
-    grid-gap: 0px;
+        grid-gap: 10px;
         grid-template-columns: 1fr  1fr  1fr 1fr;
         grid-template-areas:
                "header header  header header"
                              "content content content content"
-                             "sidebar sidebar sidebar sidebar";
+                             "footer footer footer footer";
         background-color: #fff;
         color: #444;
     }
@@ -33,11 +34,12 @@ body {
   padding: 20px;
   font-size: 150%;
   border-radius: 5px;
-margin: 10px;
 }
 
 .header {
   background-color: #135589 ;
+    text-align: center;
+
 }
 .image{
     width:100%;
