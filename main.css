@@ -1,42 +1,44 @@
 body {
-  margin: 40px;
   font-family: Arial;
 }
 
-    .footer {
-        grid-area: footer;
+    .petefooter {
+        grid-area: petefooter;
+    }
+    .yopetey{
         text-align: center;
     }
 
-    .content {
-        grid-area: content;
+    .petecontent {
+        grid-area: petecontent;
     }
 
-    .header {
-        grid-area: header;
+    .peteheader {
+        grid-area: peteheader;
+    }
+    .petenav{
+        grid-area: petenav;
     }
 
-
-    .wrapper {
+    .petewrapper {
         display: grid;
-        grid-gap: 10px;
         grid-template-columns: 1fr  1fr  1fr 1fr;
         grid-template-areas:
-               "header header  header header"
-                             "content content content content"
-                             "footer footer footer footer";
+                "petenav petenav petenav petenav"
+                "peteheader peteheader  peteheader peteheader"
+                 "petecontent petecontent petecontent petecontent"
+                 "petefooter petefooter petefooter petefooter";
         background-color: #fff;
         color: #444;
     }
-.box {
+.petebox {
   background-color: #2A93D5;
   color: #fff;
   padding: 20px;
   font-size: 150%;
-  border-radius: 5px;
 }
 
-.header {
+.peteheader {
   background-color: #135589 ;
     text-align: center;
 
