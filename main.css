@@ -1,5 +1,6 @@
 body {
   margin: 40px;
+  font-family: Arial;
 }
 
     .sidebar {
@@ -17,23 +18,25 @@ body {
 
     .wrapper {
         display: grid;
-    grid-gap: 10px;
-        grid-template-columns: 1fr  1fr  1fr;
+    grid-gap: 0px;
+        grid-template-columns: 1fr  1fr  1fr 1fr;
         grid-template-areas:
-               "header header  header"
-                             "content content content"
-                             "sidebar sidebar sidebar";
+               "header header  header header"
+                             "content content image image"
+                             "sidebar sidebar sidebar sidebar";
         background-color: #fff;
         color: #444;
     }
 .box {
-  background-color: #444;
+  background-color: #2A93D5;
   color: #fff;
-  border-radius: 5px;
   padding: 20px;
   font-size: 150%;
 }
 
 .header {
-  background-color: #999;
+  background-color: #135589 ;
+}
+.image{
+    width:100%;
 }
