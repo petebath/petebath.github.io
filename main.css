@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Navigation Styling */
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+nav ul {
+  display: flex;
+  margin: 0px;
+}
+nav {
+  background-color: #0d397f;
+  margin: 0px;
+  padding: 15px;
+}
+
+main {
+  height: 90vh;
+  background-color: #f4f9e9;
+}
+
+/* Footer Styling */
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+footer ul {
+  display: flex;
+  margin: 0px;
+}
+footer {
+  background-color: #444;
+  margin: 0px;
+  padding: 15px;
+}
+
+/* Hero Styling */
+
+main h1 {
+  text-align: center;
+  padding: 0px;
+}
+main {
+  padding: 0px;
+  display: grid;
+  align-items: center;
+  color: #1c77c8;
+}
+
+/* Blog Styling */
+
+.blog {
+  margin: auto;
+}
+
+.card {
+  margin: auto;
+  width: 900px;
+  background-color: #f4f9e9;
+}
+.blog h2,
+p {
+  padding: 20px;
+}
+
+/* Contact Page Styling */
+
+.contact {
+  margin: auto;
+  width: 300px;
+  height: 90vh;
+  display: grid;
+  align-items: center;
+}
+
+.project {
+  width: 45vw;
+  height: 50vh;
+  background-color: grey;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Projects Styling */
+
+.section {
+  margin: auto;
+}
+section h2 {
+  text-align: center;
+  padding: 40px;
+}
+
+#random-num{
+    padding:20px;
+    font-size:30px;
+}
+
+#random-btn{
+    padding:20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
