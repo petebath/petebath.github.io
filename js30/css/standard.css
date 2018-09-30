@@ -1,0 +1,40 @@
+  /* Body Styling - Applies to whole page */
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.4rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+    /* CSS Variables */
+  :root{
+    --darkblue:#0D397F;
+    --lightblue:#1C77C8;
+    --offwhite:#F4F9E9;
+    --lightred:#FF1A6A;
+    --darkred:#BC0639;
+    --darkgrey:#444;
+  }
+
+
+/* Footer Styling */
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  footer ul li {
+    list-style-type: none;
+    padding: 0px 20px;
+  }
+  footer ul {
+    display: flex;
+    margin: 0px;
+  }
+  footer {
+    background-color: var(--darkgrey);
+    margin: 0px;
+    padding: 15px;
+  }
+  
