@@ -1,9 +1,22 @@
+  /* Body Styling - Applies to whole page */
+
 body {
   margin: 0px;
   padding: 0px;
-  font-size: 20px;
+  font-size: 1.4rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+  /* CSS Variables */
+:root{
+  --darkblue:#0D397F;
+  --lightblue:#1C77C8;
+  --offwhite:#F4F9E9;
+  --lightred:#FF1A6A;
+  --darkred:#BC0639;
+  --darkgrey:#444;
+}
+
 
 /* Navigation Styling */
 
@@ -20,14 +33,14 @@ nav ul {
   margin: 0px;
 }
 nav {
-  background-color: #0d397f;
+  background-color: var(--darkblue);
   margin: 0px;
   padding: 15px;
 }
 
 main {
   height: 90vh;
-  background-color: #f4f9e9;
+  background-color: var(--offwhite);
 }
 
 /* Footer Styling */
@@ -45,7 +58,7 @@ footer ul {
   margin: 0px;
 }
 footer {
-  background-color: #444;
+  background-color: var(--darkgrey);
   margin: 0px;
   padding: 15px;
 }
@@ -60,7 +73,7 @@ main {
   padding: 0px;
   display: grid;
   align-items: center;
-  color: #1c77c8;
+  color: var(--lightblue);
 }
 
 /* Blog Styling */
@@ -71,7 +84,7 @@ main {
 
 .card {
   margin: auto;
-  width: 900px;
+  width: 70%;
   background-color: #f4f9e9;
 }
 .blog h2,
@@ -91,10 +104,11 @@ p {
 
 .project {
   width: 45vw;
-  height: 50vh;
-  background-color: #FF1A6A;
+  min-height: 50vh;
+  background-color: var(--lightred);
   margin: 10px auto;
   text-align: center;
+  font-size:3vw;
 }
 
 /* Projects Styling */
