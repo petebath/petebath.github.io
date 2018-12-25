@@ -9,7 +9,7 @@ function bbb (){
 
 
 
-function fun(){
+function fun1000(){
     let newLi = document.createElement("li");
     newLi.innerHTML = text.value;
     let newbtn = document.createElement("button");
@@ -23,4 +23,4 @@ function fun(){
 
 }
 
-addbtn.addEventListener("click", fun);
+addbtn.addEventListener("click", fun1000);
