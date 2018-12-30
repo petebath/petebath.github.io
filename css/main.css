@@ -152,3 +152,49 @@ section h2 {
   margin:5px;
   
 }
+
+#clock{
+  border:1px solid black;
+  height:300px;
+  width:300px;
+  border-radius:300px;
+  position:relative;
+  margin:auto;
+}
+
+
+
+
+
+#hand{
+  height:1px;
+  width:120px;
+  background-color:red;
+  transform-origin:100%;
+  position:absolute;
+  top:50%;
+  left:10%;
+  
+}
+#shand{
+  height:3px;
+  width:120px;
+  background-color:black;
+  transform-origin:100%;
+  position:absolute;
+  top:50%;
+  left:10%;
+  
+}
+#hour{
+  height:3px;
+  width:90px;
+  background-color:black;
+  transform-origin:100%;
+  position:absolute;
+  top:50%;
+  left:20%;
+  
+}
+
+
