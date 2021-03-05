@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>petebath.github.io</title>
+</head>
+<body>
+
+<!-- Navigation Bar-->
+
+<nav>
+    <ul>
+        <li><a href="index.html" class="left">petebath.github.io</a></li>
+    </ul>
+    <ul>
+        <li><a href="#" class="left">projects</a></li>
+        <li><a href="blog.html" class="left">blog</a></li>
+        <li><a href="#contact" class="left">contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Image-->
+
+<div class="hero-projects padding-mobile">
+  <h1 class="hero-text">
+      Javascript.
+  </h1>
+</div>
+
+
+<div class = "container2">
+
+    <!-- Hero Section -->
+ 
+ 
+     <!-- List of Projects that I've done -->
+     <h1 class="flex padding">Javascript Projects</h1>
+     <section>
+       <div class="project">
+ 
+         <h2>Random Number Generator</h2>
+         <h2>Click to generate a random number!</h2>
+         <button id="random-btn">Random Number</button>
+         <div id="random-num"></div>
+         <script src="js/random.js"></script>
+       </div>
+       <div class="project" id="color-picker">
+         <h2>Color Picker</h2>
+         <h2>Type a color!</h2>
+         <input name="text" type="text" id="color-text" />
+         <button id="color-btn">change colour</button>
+         <script src="js/colorpicker.js"></script>
+       
+       </div>
+ 
+ 
+       <div class="project">
+         <div id = "calc">
+             <div id = "result">000000</div>
+         
+           
+           <button class = "calc" id = "1" value = 1 > 1 </button>
+           <button class = "calc" id = "2" value = 2 > 2 </button>
+           <button class = "calc" id = "3" value = 3 > 3 </button>
+           <button class = "calc" id = "+" value = + > + </button>
+           <br />
+           <button class = "calc" id = "4" value = 4 > 4 </button>
+           <button class = "calc" id = "5" value = 5 > 5 </button>
+           <button class = "calc" id = "6" value = 6 > 6 </button>
+           <button class = "calc" id = "-" value = - > - </button>
+           <br />
+           <button class = "calc" id = "7" value = 7 > 7 </button>
+           <button class = "calc" id = "8" value = 8 > 8 </button>
+           <button class = "calc" id = "9" value = 9 > 9 </button>
+           <button class = "calc" id = "*" value = * > * </button>
+           <br />
+           <button class = "calc" id = "0"value = 0 > 0 </button>
+           <button class = "calc" id = "="value = = > = </button>
+           <button class = "calc" id = "/"value = / > / </button>
+           <button class = "calc" id = "c"value = c > C </button>
+         
+           <br />
+           <script src="js/calc.js"></script>
+         </div>        
+       </div>
+       
+
+
+       <div class="project">
+         <h2>To Do List App</h2>
+         <input type="text" name="text" id="text" />
+         <button id="addbtn">Add</button>
+ 
+         <div class="todo"><ul id="todo"></ul></div>
+         <script src="js/todolist.js"></script>
+       </div>
+ 
+
+
+       
+         <div class="project">
+          <div id="rock">
+             <h3 class = "head">Rock Paper Scissors Game</h3>
+             <div id = "score">
+               <span id="user">0</span>:<span id = "comp">0<span>
+             </div>
+               <div id = "rpsresult">Who is going to win?</div>
+               <div id="game">
+                 <button id = "r">Rock</button>
+                 <button id = "p">Paper</button>
+                 <button id = "s">Scissors</button>
+               </div>
+               <script src="js/rockpaperscissors.js"></script>
+          </div>
+         </div>
+ 
+         
+         <div class="project">
+           <h2>A JavaScript Clock!</h2>
+             <div id = "clock">
+               <div id = "hand" class = "hand"></div>
+               <div id = "shand"></div>
+               <div id = "hour"></div>
+             </div>
+           <script src="js/clock.js"></script>
+         </div>
+ 
+       </section>
+ 
+ 
+       <!-- Star wars APi Thingy -->
+ 
+       <div id = "starwars" class="flex">
+         <h1> Star Wars Films Api from swapi.dev</h1>
+         <div id = "swapi"></div>
+         <script src="js/swapi.js"></script>
+ 
+       </div>
+  </div>
+
+
+<!-- Contact Section-->
+
+  <div class="container" id="contact">
+    <div class="flex padding-top"><h1 class="">Contact</h1></div>
+    <div class="padding">
+
+        <form class="padding-mobile"id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mleoyzpa" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last please" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Hello! Type your message here." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+</div>
+
+
+<!-- Footer Section -->
+
+<footer class="flex">
+    CODED BY PETEBATH 2021 - except the contact form, thank you Formspree!
+</footer>
+
+</body>
+</html>
+
+
